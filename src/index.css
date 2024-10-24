@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .primary-btn {
+    @apply inline-block bg-primary text-white font-semibold rounded-lg hover:bg-secondary duration-200 shadow-[0px_10px_8px_-7px_#ffd978] hover:shadow-[0px_10px_8px_-7px_#69a79c] py-2 px-6;
+  }
+}
+
+@layer utilities {
+  .drop-shadow {
+    filter: drop-shadow(6px 8px 10px rgba(0, 0, 0, 0.5));
+  }
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: #f0f0f0; /* لون الخلفية عند التمرير */
+}
+
+.button.active {
+  background-color: #e0e0e0; /* لون الخلفية للنقطة النشطة */
+  border-color: blue; /* حدود الزر النشط */
+}
+
+.items-container {
+  margin-top: 20px; /* لتوفير مسافة بين الفلتر والمقالات */
+}
