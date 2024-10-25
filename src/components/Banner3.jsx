@@ -2,8 +2,8 @@ import { useNavigate } from "react-router-dom";
 import Leonardo from "../assets/Leonardo.png";
 import { motion } from "framer-motion";
 import science from "../assets/Biology.png"; 
-import mathIcon from "../assets/math.png"; 
-import physicsIcon from "../assets/physics.png"; 
+import mathIcon from "../assets/Math.png"; 
+import physicsIcon from "../assets/Physics.png"; 
 
 const Banner3 = () => {
   const navigate = useNavigate();
